@@ -1,0 +1,37 @@
+/* General Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins";
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Aside */
+
+.aside {
+    background-color: blue;
+}
+
+/* Main */
+
+.main {
+    background-color: red;
+}
