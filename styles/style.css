@@ -28,7 +28,7 @@ a {
 
 .aside {
     background: linear-gradient(316deg, #007aff 0%, #0f70da 100%);
-    padding: 5.2rem 1rem;
+    padding: 5.2rem 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,19 +54,19 @@ a {
 }
 
 .aside__image-1 {
-    width: 50%;
+    width: 60%;
     z-index: 10;
 }
 
 .aside__image-2 {
-    width: 40%;
+    width: 45%;
     position: absolute;
     transform: translateX(40%);
     z-index: 5;
 }
 
 .aside__image-3 {
-    width: 40%;
+    width: 45%;
     position: absolute;
     transform: translateX(-40%);
     z-index: 5;
@@ -94,8 +94,6 @@ a {
 }
 
 /* Main */
-
-/* main */
 
 .main {
     background: #fff;
