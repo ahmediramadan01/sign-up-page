@@ -24,6 +24,75 @@
                 <button class="aside__dot">&nbsp;</button>
             </div>
         </aside>
-        <main class="main">Main</main>
+        <main class="main">
+            <div class="main__container">
+                <header class="main__header">
+                    <img src="./images/logo.png" alt="" class="main__logo" />
+                    <a href="#" class="main__title">Capzul</a>
+                </header>
+                <form action="#" method="post" class="main__form">
+                    <div class="form__heading-container">
+                        <h1 class="form__heading">Create account</h1>
+                        <p class="form__description">For business, band or celebrity</p>
+                    </div>
+                    <fieldset class="form__text-fieldset">
+                        <div class="form__text-container">
+                            <label for="first-name">First name</label>
+                            <input type="text" id="first-name" name="first-name" minlength="2" required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="last-name">Last name</label>
+                            <input type="text" id="last-name" name="last-name" minlength="2" required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="phone-number">Phone number</label>
+                            <input type="tel" id="phone-number" name="phone-number" required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="password-confirm">Confirm password</label>
+                            <input type="password" id="password-confirm" name="password-confirm" required />
+                        </div>
+                    </fieldset>
+                    <fieldset class="form__checkbox-fieldset">
+                        <div class="form__checkbox-container">
+                            <div class="form__checkbox-input">
+                                <input type="checkbox" id="remember-me" name="remember-me" />
+                                <label for="remember-me">Remember me</label>
+                            </div>
+                            <a href="#" class="checkbox__link">Forgot password?</a>
+                        </div>
+                        <div class="form__checkbox-input">
+                            <input type="checkbox" id="terms-agree" name="terms-agree" required />
+                            <label for="terms-agree">
+                                I agree to all the <a href="#" class="checkbox__link">Terms</a> and
+                                <a href="#" class="checkbox__link">Privacy policy</a>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="form__buttons">
+                        <button type="submit" class="form__button form__button--submit">Create account</button>
+                        <a href="#" class="form__button form__button--sign-in-google">
+                            <img src="./images/google-icon.png" alt="Google icon" class="google-icon" />
+                            <span>Sign-in with Google</span>
+                        </a>
+                    </div>
+                    <div class="form__login">
+                        <p>Have an account? <a href="#" class="checkbox__link">Log In</a></p>
+                    </div>
+                </form>
+                <footer class="footer">
+                    <a href="#"><img src="./images/google-play-badge.svg" alt="Google Play badge" /></a>
+                    <a href="#"><img src="./images/app-store-badge.svg" alt="App Store badge" /></a>
+                </footer>
+            </div>
+        </main>
     </body>
 </html>
