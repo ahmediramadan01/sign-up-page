@@ -27,7 +27,70 @@ a {
 /* Aside */
 
 .aside {
-    background-color: blue;
+    background: linear-gradient(316deg, #007aff 0%, #0f70da 100%);
+    padding: 5.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside__heading {
+    color: #fff;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.56px;
+    margin-bottom: 6.2rem;
+}
+
+.aside__images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4.2rem;
+}
+
+.aside__image-1 {
+    width: 50%;
+    z-index: 10;
+}
+
+.aside__image-2 {
+    width: 40%;
+    position: absolute;
+    transform: translateX(40%);
+    z-index: 5;
+}
+
+.aside__image-3 {
+    width: 40%;
+    position: absolute;
+    transform: translateX(-40%);
+    z-index: 5;
+}
+
+.aside__dots {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.aside__dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: linear-gradient(316deg, #007aff 0%, #0f70da 100%);
+    border: 1px solid #fff;
+}
+
+.aside__dot-selected {
+    background: #fff;
+    border: 1px solid #fff;
 }
 
 /* Main */
