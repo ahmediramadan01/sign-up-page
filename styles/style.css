@@ -248,6 +248,9 @@ input {
     border: none;
     flex-grow: 1;
     padding: 1.2rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form__button--submit {
