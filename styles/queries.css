@@ -83,3 +83,26 @@
         grid-row: 1/-1;
     }
 }
+
+/* Phones: 592px */
+@media (max-width: 37em) {
+    .form__text-fieldset {
+        grid-template-columns: 1fr;
+    }
+
+    .form__buttons {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .form__button {
+        height: 3.2rem;
+        padding-top: 2.2rem;
+        padding-bottom: 2.2rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+}
