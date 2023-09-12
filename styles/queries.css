@@ -69,3 +69,17 @@
         gap: 3.2rem;
     }
 }
+
+/* Tablets: 915px */
+@media (max-width: 57.2em) {
+    .aside {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        display: none;
+    }
+    .main {
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+    }
+}
