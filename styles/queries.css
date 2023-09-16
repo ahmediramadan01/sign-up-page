@@ -4,44 +4,17 @@
 
     .aside {
         padding: 4rem;
-        min-height: 100vh;
     }
 
     .aside__heading {
         font-size: 2.4rem;
         letter-spacing: -0.48px;
-        margin-bottom: 5.6rem;
-    }
-
-    .aside__images {
-        margin-bottom: 3rem;
-    }
-
-    .aside__image-1 {
-        width: 60%;
-    }
-
-    .aside__image-2 {
-        width: 50%;
-    }
-
-    .aside__image-3 {
-        width: 50%;
     }
 
     /* Main */
 
     .main {
-        padding: 4rem 4rem 2.4rem;
-        height: 100vh;
-    }
-
-    .main__header {
-        margin-bottom: 3.7rem;
-    }
-
-    .main__form {
-        margin-bottom: 4rem;
+        padding: 4rem;
     }
 
     .form__heading-container {
@@ -86,6 +59,14 @@
 
 /* Phones: 592px */
 @media (max-width: 37em) {
+    .main__header {
+        margin-bottom: 3.7rem;
+    }
+
+    .main__form {
+        margin-bottom: 4rem;
+    }
+
     .form__text-fieldset {
         grid-template-columns: 1fr;
     }

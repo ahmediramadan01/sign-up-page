@@ -14,9 +14,9 @@ html {
 
 body {
     font-family: "Poppins";
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 3fr 4fr;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 
 .aside {
     background: linear-gradient(316deg, #007aff 0%, #0f70da 100%);
-    padding: 5.2rem;
+    padding: 6.4rem 4rem 5.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +42,6 @@ a {
     font-weight: 600;
     line-height: 150%;
     letter-spacing: -0.56px;
-    margin-bottom: 6.2rem;
 }
 
 .aside__images {
@@ -50,7 +49,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 4.2rem;
 }
 
 .aside__image-1 {
@@ -59,14 +57,14 @@ a {
 }
 
 .aside__image-2 {
-    width: 40%;
+    width: 45%;
     position: absolute;
     transform: translateX(40%);
     z-index: 5;
 }
 
 .aside__image-3 {
-    width: 40%;
+    width: 45%;
     position: absolute;
     transform: translateX(-40%);
     z-index: 5;
@@ -99,14 +97,14 @@ a {
     background: #fff;
     display: flex;
     justify-content: center;
-    padding: 5.2rem 5.2rem 3.2rem;
+    padding: 6.4rem 4rem 5.2rem;
 }
 
 .main__header {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 6.1rem;
+    margin-bottom: 4rem;
 }
 
 .main__logo {
@@ -123,7 +121,7 @@ a {
 }
 
 .main__form {
-    margin-bottom: 11.4rem;
+    margin-bottom: 6rem;
 }
 
 .form__heading-container {
