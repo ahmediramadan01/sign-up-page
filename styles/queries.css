@@ -1,7 +1,6 @@
 /* Smaller Screens: 1440px */
 @media (max-width: 90em) {
-    /* Aside */
-
+    /* Aside Styles */
     .aside {
         padding: 4rem;
     }
@@ -11,8 +10,7 @@
         letter-spacing: -0.48px;
     }
 
-    /* Main */
-
+    /* Main Styles */
     .main {
         padding: 4rem;
     }
@@ -45,12 +43,15 @@
 
 /* Tablets: 915px */
 @media (max-width: 57.2em) {
+    /* Aside Styles */
     .aside {
         opacity: 0;
         pointer-events: none;
         visibility: hidden;
         display: none;
     }
+
+    /* Main Styles */
     .main {
         grid-column: 1/-1;
         grid-row: 1/-1;
@@ -59,6 +60,7 @@
 
 /* Phones: 592px */
 @media (max-width: 37em) {
+    /* Main Styles */
     .main__header {
         margin-bottom: 3.7rem;
     }

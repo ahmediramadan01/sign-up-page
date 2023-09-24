@@ -24,7 +24,7 @@ a {
     text-decoration: none;
 }
 
-/* Aside */
+/* Aside Styles */
 
 .aside {
     background: linear-gradient(316deg, #007aff 0%, #0f70da 100%);
@@ -91,7 +91,7 @@ a {
     border: 1px solid #fff;
 }
 
-/* Main */
+/* Main Styles */
 
 .main {
     background: #fff;
