@@ -1,6 +1,6 @@
 # Sign Up Page: **[LIVE](https://ahmediramadan01.github.io/sign-up-page/ "Sign Up Page's Live Preview")**
 
-## Responsive Sign Up Page
+## Responsive Sign Up Page UI
 
 ### Technologies: HTML, CSS
 
