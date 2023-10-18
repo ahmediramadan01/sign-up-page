@@ -1,8 +1,11 @@
-# Sign Up Page: **[LIVE](https://ahmediramadan01.github.io/sign-up-page/ "Sign Up Page's Live Preview")**
+# Sign Up Page: **[LIVE](https://ahmediramadan01.github.io/sign-up-page-html-css/ "Sign Up Page's Live Preview")**
 
-## Responsive Sign Up Page UI with HTML Validation
+## Technologies: HTML, CSS
 
-### Technologies: HTML, CSS
+### Features:
+
+-   HTML Validation
+-   Responsive on all screens
 
 ![Sign Up Page's Desktop Screenshot](./images/sign-up-page-desktop.png?raw=true "Sign Up Page (Desktop)")
 ![Sign Up Page's Desktop Screenshot](./images/sign-up-page-tablet.png?raw=true "Sign Up Page (Tablet)")
