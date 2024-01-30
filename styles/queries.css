@@ -1,91 +1,91 @@
 /* Smaller Screens: 1440px */
 @media (max-width: 90em) {
-    /* Aside Styles */
-    .aside {
-        padding: 4rem;
-    }
+  /* Aside Styles */
+  .aside {
+    padding: 4rem;
+  }
 
-    .aside__heading {
-        font-size: 2.4rem;
-        letter-spacing: -0.48px;
-    }
+  .aside__heading {
+    font-size: 2.4rem;
+    letter-spacing: -0.48px;
+  }
 
-    /* Main Styles */
-    .main {
-        padding: 4rem;
-    }
+  /* Main Styles */
+  .main {
+    padding: 4rem;
+  }
 
-    .form__heading-container {
-        margin-bottom: 3.7rem;
-    }
+  .form__heading-container {
+    margin-bottom: 3.7rem;
+  }
 
-    .form__heading {
-        font-size: 2.4rem;
-        letter-spacing: -0.48px;
-    }
+  .form__heading {
+    font-size: 2.4rem;
+    letter-spacing: -0.48px;
+  }
 
-    .form__text-fieldset {
-        margin-bottom: 1.6rem;
-    }
+  .form__text-fieldset {
+    margin-bottom: 1.6rem;
+  }
 
-    .form__text-container input {
-        width: 100%;
-    }
+  .form__text-container input {
+    width: 100%;
+  }
 
-    .form__checkbox-fieldset {
-        margin-bottom: 2.4rem;
-    }
+  .form__checkbox-fieldset {
+    margin-bottom: 2.4rem;
+  }
 
-    .form__buttons {
-        gap: 3.2rem;
-    }
+  .form__buttons {
+    gap: 3.2rem;
+  }
 }
 
 /* Tablets: 915px */
 @media (max-width: 57.2em) {
-    /* Aside Styles */
-    .aside {
-        opacity: 0;
-        pointer-events: none;
-        visibility: hidden;
-        display: none;
-    }
+  /* Aside Styles */
+  .aside {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    display: none;
+  }
 
-    /* Main Styles */
-    .main {
-        grid-column: 1/-1;
-        grid-row: 1/-1;
-    }
+  /* Main Styles */
+  .main {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+  }
 }
 
 /* Phones: 592px */
 @media (max-width: 37em) {
-    /* Main Styles */
-    .main__header {
-        margin-bottom: 3.7rem;
-    }
+  /* Main Styles */
+  .main__header {
+    margin-bottom: 3.7rem;
+  }
 
-    .main__form {
-        margin-bottom: 4rem;
-    }
+  .main__form {
+    margin-bottom: 4rem;
+  }
 
-    .form__text-fieldset {
-        grid-template-columns: 1fr;
-    }
+  .form__text-fieldset {
+    grid-template-columns: 1fr;
+  }
 
-    .form__buttons {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+  .form__buttons {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 
-    .form__button {
-        height: 3.2rem;
-        padding-top: 2.2rem;
-        padding-bottom: 2.2rem;
-    }
+  .form__button {
+    height: 3.2rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+  }
 
-    .footer {
-        display: flex;
-        justify-content: center;
-    }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
 }
