@@ -4,8 +4,8 @@
 
 ### Features:
 
-- HTML Validation
-- Responsive on all screens
+-   HTML Validation
+-   Responsive on all screens
 
 ![Sign Up Page's Desktop Screenshot](./images/sign-up-page-desktop.png?raw=true "Sign Up Page (Desktop)")
 

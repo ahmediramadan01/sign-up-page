@@ -1,131 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="icon" href="./images/logo.png" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/queries.css" />
-    <link rel="stylesheet" href="./styles/queries.css" />
-    <title>Sign Up Page</title>
-  </head>
-  <body>
-    <aside class="aside">
-      <h1 class="aside__heading">Social media shared today, tomorrow or by location</h1>
-      <div class="aside__images">
-        <img src="./images/features-archive.png" alt="App screenshot" class="aside__image-1" />
-        <img src="./images/features-archive.png" alt="App screenshot" class="aside__image-2" />
-        <img src="./images/features-archive.png" alt="App screenshot" class="aside__image-3" />
-      </div>
-      <div class="aside__dots">
-        <button class="aside__dot">&nbsp;</button>
-        <button class="aside__dot aside__dot-selected">&nbsp;</button>
-        <button class="aside__dot">&nbsp;</button>
-      </div>
-    </aside>
-    <main class="main">
-      <div class="main__container">
-        <header class="main__header">
-          <img src="./images/logo.png" alt="" class="main__logo" />
-          <a href="#" class="main__title">Capzul</a>
-        </header>
-        <form action="https://httpbin.org/post" method="post" class="main__form">
-          <div class="form__heading-container">
-            <h1 class="form__heading">Create account</h1>
-            <p class="form__description">For business, band or celebrity</p>
-          </div>
-          <fieldset class="form__text-fieldset">
-            <div class="form__text-container">
-              <label for="first_name">First name</label>
-              <input
-                type="text"
-                id="first_name"
-                name="first_name"
-                minlength="2"
-                maxlength="32"
-                pattern="[A-Za-z]{2,32}"
-                required />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+        <link rel="icon" href="./images/logo.png" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/queries.css" />
+        <link rel="stylesheet" href="./styles/queries.css" />
+        <title>Sign Up Page</title>
+    </head>
+    <body>
+        <aside class="aside">
+            <h1 class="aside__heading">Social media shared today, tomorrow or by location</h1>
+            <div class="aside__images">
+                <img src="./images/features-archive.png" alt="App screenshot" class="aside__image-1" />
+                <img src="./images/features-archive.png" alt="App screenshot" class="aside__image-2" />
+                <img src="./images/features-archive.png" alt="App screenshot" class="aside__image-3" />
             </div>
-            <div class="form__text-container">
-              <label for="last_name">Last name</label>
-              <input
-                type="text"
-                id="last_name"
-                name="last_name"
-                minlength="2"
-                maxlength="32"
-                pattern="[A-Za-z]{2,32}"
-                required />
+            <div class="aside__dots">
+                <button class="aside__dot">&nbsp;</button>
+                <button class="aside__dot aside__dot-selected">&nbsp;</button>
+                <button class="aside__dot">&nbsp;</button>
             </div>
-            <div class="form__text-container">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+        </aside>
+        <main class="main">
+            <div class="main__container">
+                <header class="main__header">
+                    <img src="./images/logo.png" alt="" class="main__logo" />
+                    <a href="#" class="main__title">Capzul</a>
+                </header>
+                <form action="https://httpbin.org/post" method="post" class="main__form">
+                    <div class="form__heading-container">
+                        <h1 class="form__heading">Create account</h1>
+                        <p class="form__description">For business, band or celebrity</p>
+                    </div>
+                    <fieldset class="form__text-fieldset">
+                        <div class="form__text-container">
+                            <label for="first_name">First name</label>
+                            <input
+                                type="text"
+                                id="first_name"
+                                name="first_name"
+                                minlength="2"
+                                maxlength="32"
+                                pattern="[A-Za-z]{2,32}"
+                                required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="last_name">Last name</label>
+                            <input
+                                type="text"
+                                id="last_name"
+                                name="last_name"
+                                minlength="2"
+                                maxlength="32"
+                                pattern="[A-Za-z]{2,32}"
+                                required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="phone_number">Phone number</label>
+                            <input
+                                type="tel"
+                                id="phone_number"
+                                name="phone_number"
+                                pattern="[0-9]{10,15}"
+                                minlength="10"
+                                maxlength="15"
+                                required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="password">Password</label>
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                required />
+                        </div>
+                        <div class="form__text-container">
+                            <label for="password_confirm">Confirm password</label>
+                            <input
+                                type="password"
+                                id="password_confirm"
+                                name="password_confirm"
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                required />
+                        </div>
+                    </fieldset>
+                    <fieldset class="form__checkbox-fieldset">
+                        <div class="form__checkbox-container">
+                            <div class="form__checkbox-input">
+                                <input type="checkbox" id="remember-me" name="remember-me" />
+                                <label for="remember-me">Remember me</label>
+                            </div>
+                            <a href="#" class="checkbox__link">Forgot password?</a>
+                        </div>
+                        <div class="form__checkbox-input">
+                            <input type="checkbox" id="terms-agree" name="terms-agree" required />
+                            <label for="terms-agree">
+                                I agree to all the <a href="#" class="checkbox__link">Terms</a> and
+                                <a href="#" class="checkbox__link">Privacy policy</a>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="form__buttons">
+                        <button type="submit" class="form__button form__button--submit">Create account</button>
+                        <a href="#" class="form__button form__button--sign-in-google">
+                            <img src="./images/google-icon.png" alt="Google icon" class="google-icon" />
+                            <span>Sign-in with Google</span>
+                        </a>
+                    </div>
+                    <div class="form__login">
+                        <p>Have an account? <a href="#" class="checkbox__link">Log In</a></p>
+                    </div>
+                </form>
+                <footer class="footer">
+                    <a href="#"><img src="./images/google-play-badge.svg" alt="Google Play badge" /></a>
+                    <a href="#"><img src="./images/app-store-badge.svg" alt="App Store badge" /></a>
+                </footer>
             </div>
-            <div class="form__text-container">
-              <label for="phone_number">Phone number</label>
-              <input
-                type="tel"
-                id="phone_number"
-                name="phone_number"
-                pattern="[0-9]{10,15}"
-                minlength="10"
-                maxlength="15"
-                required />
-            </div>
-            <div class="form__text-container">
-              <label for="password">Password</label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                required />
-            </div>
-            <div class="form__text-container">
-              <label for="password_confirm">Confirm password</label>
-              <input
-                type="password"
-                id="password_confirm"
-                name="password_confirm"
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                required />
-            </div>
-          </fieldset>
-          <fieldset class="form__checkbox-fieldset">
-            <div class="form__checkbox-container">
-              <div class="form__checkbox-input">
-                <input type="checkbox" id="remember-me" name="remember-me" />
-                <label for="remember-me">Remember me</label>
-              </div>
-              <a href="#" class="checkbox__link">Forgot password?</a>
-            </div>
-            <div class="form__checkbox-input">
-              <input type="checkbox" id="terms-agree" name="terms-agree" required />
-              <label for="terms-agree">
-                I agree to all the <a href="#" class="checkbox__link">Terms</a> and
-                <a href="#" class="checkbox__link">Privacy policy</a>
-              </label>
-            </div>
-          </fieldset>
-          <div class="form__buttons">
-            <button type="submit" class="form__button form__button--submit">Create account</button>
-            <a href="#" class="form__button form__button--sign-in-google">
-              <img src="./images/google-icon.png" alt="Google icon" class="google-icon" />
-              <span>Sign-in with Google</span>
-            </a>
-          </div>
-          <div class="form__login">
-            <p>Have an account? <a href="#" class="checkbox__link">Log In</a></p>
-          </div>
-        </form>
-        <footer class="footer">
-          <a href="#"><img src="./images/google-play-badge.svg" alt="Google Play badge" /></a>
-          <a href="#"><img src="./images/app-store-badge.svg" alt="App Store badge" /></a>
-        </footer>
-      </div>
-    </main>
-  </body>
+        </main>
+    </body>
 </html>
